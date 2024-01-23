@@ -35,13 +35,15 @@ let all_products =[
         new_price : 50,
         old_price:80
     },
-    {
-        id: 5,
-        name: "product",
-        category: "washing",
-        image: img,
-        new_price : 50,
-        old_price:80
-    },
+    // {
+    //     id: 5,
+    //     name: "product",
+    //     category: "washing",
+    //     image: img,
+    //     new_price : 50,
+    //     old_price:80
+    // },
 
 ]
+
+ export default all_products;
