@@ -8,22 +8,22 @@ import all_products from "../components/Assets/AllProduct";
 const ShopCategory = (props) => {
   const { data, setData } = useContext(ShopContext);
 
-  // useEffect(() => {
-  //   setData(all_products);
-  // }, []);
+  useEffect(() => {
+    setData(all_products);
+  }, []);
 
   console.log("data", data);
 
   return (
     <div>
       <div className="shop-category">
-        <img src={props.banner} alt="" />
+        <img className="shopcategory-banner" src={props.banner} alt="" />
         <div className="shopcategory-indexsort">
           <p>
             <span>showing 1-12</span> out of 36
           </p>
           <div className="shopcategory-sort">
-            sort by <img src={dropdown} alt="" />
+            sort by <img src={dropdown} alt="" height="10px" />
           </div>
         </div>
       </div>
@@ -44,6 +44,9 @@ const ShopCategory = (props) => {
             return null;
           }
         })}
+      </div>
+      <div className="shopcategory-loadmore ">
+        Explore More
       </div>
     </div>
   );
