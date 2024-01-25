@@ -1,16 +1,16 @@
 import React from "react";
 import "./Footer.css";
 import facebook from "../Assets/facebook.jpg";
-import instagram from "../Assets/download.jpg";
-import whatsapp from "../Assets/watsapp.png";
-import inst from "../Assets/sjhop.png";
+import instagram from "../asss/Assets/instagram_icon.png";
+import whatsapp from "../asss/Assets/whatsapp_icon.png";
+ 
 
 const Footer = () => {
   return (
     <div>
       <div className="footer">
         <div className="footer-logo">
-          <img src={inst} alt="" height="50px" width="50px" />
+          <img src={instagram} alt="" height="50px" width="50px" />
           <p>SHOOPER</p>
         </div>
         <ul className="footer-links">
@@ -25,7 +25,7 @@ const Footer = () => {
             <img src={whatsapp} alt="" width="30px" height="30px" />
           </div>
           <div className="footer-icons-container">
-            <img src={whatsapp} alt="" width="30px" height="30px" />
+            <img src={instagram} alt="" width="30px" height="30px" />
           </div>
           <div className="footer-icons-container">
             <img src={facebook} alt="" width="30px" height="30px" />

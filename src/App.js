@@ -6,9 +6,9 @@ import ShopCategory from "./pages/ShopCategory";
 import Cart from "./pages/Cart";
 import Product from "./pages/Product";
 import LoginSignUp from "./pages/LoginSignUp";
-import menswear from "./components/Assets/mensbanner.jpg";
-import womenswear from "./components/Assets/womensbanner.jpg";
-import kidswear from "./components/Assets/kidsbanner.jpg";
+import menswear from "./components/asss/Assets/banner_mens.png";
+import womenswear from "./components/asss/Assets/banner_women.png";
+import kidswear from "./components/asss/Assets/banner_kids.png";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
           <Route path="/login" element={<LoginSignUp />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );

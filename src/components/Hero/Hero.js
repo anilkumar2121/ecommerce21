@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
-import handIcon from "../Assets/handicon.jpg";
-import heroine from "../Assets/heroine.jpg";
+import handIcon from "../asss/Assets/hand_icon.png";
+import heroine from  "../asss/Assets/hero_image.png";
 
 const Hero = () => {
   return (

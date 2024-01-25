@@ -1,12 +1,14 @@
 import React, { useContext, useEffect } from "react";
 import "./ShopCategory.css";
 import { ShopContext } from "../context/ShopContext";
-import dropdown from "../components/Assets/dropdown.png";
+import dropdown from "../components/asss/Assets/dropdown_icon.png";
 import Item from "../components/item/Item";
-import all_products from "../components/Assets/AllProduct";
+import all_products from "../components/asss/Assets/all_product";
 
 const ShopCategory = (props) => {
   const { data, setData } = useContext(ShopContext);
+
+  console.log("dataaa",data)
 
   useEffect(() => {
     setData(all_products);
